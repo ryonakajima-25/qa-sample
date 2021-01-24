@@ -14,6 +14,8 @@
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true, // 関数内のすべての経路で、返り値の型があっているかをチェックする
+    "noUnusedLocals": true, // 一度も使われないローカル変数があると、コンパイルエラーになる
+    "noUnusedParameters": true, // 一度も使われないパラメータがあると、コンパイルエラーになる
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
