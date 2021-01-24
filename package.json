@@ -48,12 +48,12 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"// precommit 時にlint-staged が実行
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
     "*.{ts,tsx}": [
-      "prettier --write" //拡張子が ts または tsx の場合に、prettier を走らせてから git add する
+      "prettier --write"
     ]
   },
   "prettier": {
